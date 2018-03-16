@@ -1,3 +1,6 @@
+html, body {
+    font-family: 'Open Sans';
+}
 html {
   background-image: -webkit-linear-gradient(#4c6675, #375266, #243e56, #132b47, #051937);
   background-image: -o-linear-gradient(#4c6675, #375266, #243e56, #132b47, #051937);
@@ -8,6 +11,12 @@ html {
   background-image: url("../images/concrete_seamless.jpg");
 }
 
+
+@media only screen and (max-width: 60em) {
+    .skills-description , .project-description {
+    font-size: 9px;
+    }
+  }
 
 .skills-description {
   font-style: italic;
