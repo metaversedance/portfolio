@@ -10,7 +10,9 @@ html {
   background-color: black;
   background-image: url("../images/concrete_seamless.jpg");
 }
-
+.portfolio-link {
+  color: white;
+}
 .plus-icon {
   position: absolute;
   top: 43%;
