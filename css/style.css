@@ -11,7 +11,18 @@ html {
   background-image: url("../images/concrete_seamless.jpg");
 }
 
+.plus-icon {
+  position: absolute;
+  top: 43%;
+  left: 43%;
+  opacity: .3;
+}
 
+.hovereffect:hover .plus-icon {
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
 @media only screen and (max-width: 60em) {
     .skills-description , .project-description {
     font-size: 9px;
